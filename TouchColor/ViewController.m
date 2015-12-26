@@ -40,6 +40,7 @@
     NSArray* colors = @[@"100", @"101", @"110", @"010", @"011", @"001"];
     self.colors = colors;
     
+    [self load];
     [self restart];
 }
 
@@ -70,7 +71,7 @@
     self.lastColor = randColor;
     
     [UIView animateWithDuration:0.3 animations:^{
-        self.rView.transform = CGAffineTransformMakeScale(1.5, 1.5);
+        self.rView.transform = CGAffineTransformMakeScale(1.3, 1.3);
         self.rView.backgroundColor = [UIColor colorWithRed:randColorInt / 100
                                                      green:randColorInt / 10 % 10
                                                       blue:randColorInt  % 10
