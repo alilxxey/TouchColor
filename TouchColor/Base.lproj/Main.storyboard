@@ -158,7 +158,7 @@
                                     <segue destination="zzG-JO-ASW" kind="modal" id="CER-XM-MKA"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Sanic2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ash-7u-gfD">
+                            <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Sanic2.png" highlightedImage="Sanic2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ash-7u-gfD">
                                 <rect key="frame" x="180" y="28" width="240" height="311"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="311" id="OWo-Hi-Yub"/>
@@ -1224,6 +1224,10 @@
                                 <exclude reference="B9M-eD-Z4G"/>
                                 <exclude reference="R4t-th-BPR"/>
                                 <exclude reference="VJZ-Bo-0qz"/>
+                                <exclude reference="YHm-1E-z19"/>
+                                <exclude reference="cgj-jE-tlS"/>
+                                <exclude reference="G0W-28-DtR"/>
+                                <exclude reference="iy0-8C-K1u"/>
                                 <exclude reference="FS1-8u-Stt"/>
                                 <exclude reference="rXP-wz-jz1"/>
                                 <exclude reference="dg0-Pf-8ao"/>
@@ -1232,23 +1236,19 @@
                                 <exclude reference="oOG-IF-BIc"/>
                                 <exclude reference="8v9-DW-qlu"/>
                                 <exclude reference="CxH-Lk-Ecf"/>
+                                <exclude reference="WCC-3Y-G0C"/>
+                                <exclude reference="fQy-UF-uxD"/>
+                                <exclude reference="Bwg-NQ-vXI"/>
+                                <exclude reference="ZEk-Bm-W7B"/>
                                 <exclude reference="TPw-or-gxn"/>
                                 <exclude reference="rnJ-Na-hlC"/>
                                 <exclude reference="f3k-NE-zWU"/>
                                 <exclude reference="7I5-kx-YZU"/>
                                 <exclude reference="Fo5-jC-31O"/>
                                 <exclude reference="eP7-EY-W6Y"/>
-                                <exclude reference="YHm-1E-z19"/>
-                                <exclude reference="cgj-jE-tlS"/>
-                                <exclude reference="G0W-28-DtR"/>
-                                <exclude reference="iy0-8C-K1u"/>
                                 <exclude reference="Ahd-Cs-usO"/>
-                                <exclude reference="Bwg-NQ-vXI"/>
-                                <exclude reference="ZEk-Bm-W7B"/>
                                 <exclude reference="tSy-0L-ayY"/>
                                 <exclude reference="tNa-mp-CTf"/>
-                                <exclude reference="WCC-3Y-G0C"/>
-                                <exclude reference="fQy-UF-uxD"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -1275,6 +1275,15 @@
                                 <exclude reference="bQd-VP-jbp"/>
                                 <exclude reference="dag-dn-CoX"/>
                                 <exclude reference="ySY-dD-NV7"/>
+                                <exclude reference="PK7-LK-zlP"/>
+                                <include reference="WCC-3Y-G0C"/>
+                                <include reference="fQy-UF-uxD"/>
+                                <exclude reference="qcv-T6-awS"/>
+                                <exclude reference="7oE-Eu-uom"/>
+                                <exclude reference="9VZ-oK-Vsz"/>
+                                <include reference="Bwg-NQ-vXI"/>
+                                <include reference="ZEk-Bm-W7B"/>
+                                <exclude reference="xd3-Je-aUI"/>
                                 <include reference="TPw-or-gxn"/>
                                 <exclude reference="R27-LR-uf3"/>
                                 <include reference="rnJ-Na-hlC"/>
@@ -1287,15 +1296,6 @@
                                 <exclude reference="Bch-mE-Eko"/>
                                 <include reference="Fo5-jC-31O"/>
                                 <include reference="eP7-EY-W6Y"/>
-                                <exclude reference="9VZ-oK-Vsz"/>
-                                <include reference="Bwg-NQ-vXI"/>
-                                <include reference="ZEk-Bm-W7B"/>
-                                <exclude reference="xd3-Je-aUI"/>
-                                <exclude reference="PK7-LK-zlP"/>
-                                <include reference="WCC-3Y-G0C"/>
-                                <include reference="fQy-UF-uxD"/>
-                                <exclude reference="qcv-T6-awS"/>
-                                <exclude reference="7oE-Eu-uom"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -1338,8 +1338,8 @@
         <image name="play.png" width="886" height="885"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kYn-mZ-B9A"/>
-        <segue reference="BgD-5l-iAl"/>
+        <segue reference="CER-XM-MKA"/>
         <segue reference="wdQ-1L-Whu"/>
+        <segue reference="BgD-5l-iAl"/>
     </inferredMetricsTieBreakers>
 </document>
