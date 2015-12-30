@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		40E414121BFDF2D800FC7D1D /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E414111BFDF2D800FC7D1D /* SoundPlayer.m */; };
-		6302B36B1C2F45B000666B77 /* AnotherPhoto in Resources */ = {isa = PBXBuildFile; fileRef = 6302B36A1C2F45B000666B77 /* AnotherPhoto */; };
+		631B69551C315226005C56B4 /* Illuminati.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69541C315226005C56B4 /* Illuminati.png */; };
+		631B69571C31522D005C56B4 /* Sanic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69561C31522D005C56B4 /* Sanic2.png */; };
 		C04FD5781C03363400B2591F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5771C03363400B2591F /* MenuViewController.m */; };
 		C04FD57D1C03616900B2591F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C04FD57C1C03616900B2591F /* icon */; };
 		C04FD5811C0362B800B2591F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = C04FD5801C0362B800B2591F /* play.png */; };
@@ -44,7 +45,8 @@
 /* Begin PBXFileReference section */
 		40E414101BFDF2D800FC7D1D /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlayer.h; sourceTree = "<group>"; };
 		40E414111BFDF2D800FC7D1D /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
-		6302B36A1C2F45B000666B77 /* AnotherPhoto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AnotherPhoto; sourceTree = SOURCE_ROOT; };
+		631B69541C315226005C56B4 /* Illuminati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illuminati.png; sourceTree = "<group>"; };
+		631B69561C31522D005C56B4 /* Sanic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sanic2.png; sourceTree = "<group>"; };
 		C04FD5761C03363400B2591F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C04FD5771C03363400B2591F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C04FD57C1C03616900B2591F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
@@ -118,7 +120,6 @@
 		C0E8DEBF1BEB82E800E7F565 /* TouchColor */ = {
 			isa = PBXGroup;
 			children = (
-				6302B36A1C2F45B000666B77 /* AnotherPhoto */,
 				C0E8DEC31BEB82E800E7F565 /* AppDelegate.h */,
 				C0E8DEC41BEB82E800E7F565 /* AppDelegate.m */,
 				C0E8DEC61BEB82E800E7F565 /* ViewController.h */,
@@ -130,6 +131,8 @@
 				C04FD5761C03363400B2591F /* MenuViewController.h */,
 				C04FD5771C03363400B2591F /* MenuViewController.m */,
 				C0E8DEC91BEB82E800E7F565 /* Main.storyboard */,
+				631B69561C31522D005C56B4 /* Sanic2.png */,
+				631B69541C315226005C56B4 /* Illuminati.png */,
 				C04FD5871C0729F200B2591F /* hand.png */,
 				C04FD5801C0362B800B2591F /* play.png */,
 				C04FD57C1C03616900B2591F /* icon */,
@@ -274,11 +277,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C04FD57D1C03616900B2591F /* icon in Resources */,
+				631B69551C315226005C56B4 /* Illuminati.png in Resources */,
 				C0E8DED01BEB82E800E7F565 /* LaunchScreen.storyboard in Resources */,
 				C0E8DECD1BEB82E800E7F565 /* Assets.xcassets in Resources */,
 				C0E8DECB1BEB82E800E7F565 /* Main.storyboard in Resources */,
 				C04FD5881C0729F200B2591F /* hand.png in Resources */,
-				6302B36B1C2F45B000666B77 /* AnotherPhoto in Resources */,
+				631B69571C31522D005C56B4 /* Sanic2.png in Resources */,
 				C04FD5811C0362B800B2591F /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
