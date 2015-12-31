@@ -12,7 +12,7 @@
 @interface ViewController ()
 
 @property (retain, nonatomic) NSTimer* timer;
-@property (strong, nonatomic) NSString* lastColor;
+@property (assign, nonatomic) NSInteger lastIndexRandImage;
 @property (strong, nonatomic) NSArray* viewsTouches;
 @property (strong, nonatomic) NSArray* colors;
 @property (assign, nonatomic) NSInteger score;
@@ -37,7 +37,15 @@
     NSArray* viewsTouches = @[self.view1, self.view2, self.view3, self.view4, self.view5, self.view6];
     self.viewsTouches = viewsTouches;
     
-    NSArray* colors = @[@"100", @"101", @"110", @"010", @"011", @"001"];
+    UIImage *image1 = [UIImage imageNamed:@"Sanic2.png"];
+    UIImage *image2 = [UIImage imageNamed:@"110.png"];
+    UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
+    UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
+    UIImage *image5 = [UIImage imageNamed:@"101.png"];
+    UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+    
+    NSArray* colors = @[image1, image2, image3, image4, image5, image6];
+    
     self.colors = colors;
     
     [self load];
@@ -50,6 +58,7 @@
                                    selector:@selector(randColor)
                                    userInfo:NULL
                                     repeats:YES];
+    
 }
 
 - (void)restart {
@@ -60,22 +69,17 @@
 }
 
 - (void)randColor {
-    NSString* randColor = [self.colors objectAtIndex:arc4random() % 6];
     
-    while ([randColor isEqual:self.lastColor]) {
-        randColor = [self.colors objectAtIndex:arc4random() % 6];
-        
+    int indexRandImage = arc4random() % 6;
+    while (indexRandImage == self.lastIndexRandImage) {
+        indexRandImage = arc4random() % 6;
     }
-    
-    int randColorInt = [randColor intValue];
-    self.lastColor = randColor;
+    self.lastIndexRandImage = indexRandImage;
     
     [UIView animateWithDuration:0.3 animations:^{
         self.rView.transform = CGAffineTransformMakeScale(1.3, 1.3);
-        self.rView.backgroundColor = [UIColor colorWithRed:randColorInt / 100
-                                                     green:randColorInt / 10 % 10
-                                                      blue:randColorInt  % 10
-                                                     alpha:1];
+        self.rView.image = [self.colors objectAtIndex:indexRandImage];
+        
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.3
                          animations:^{
@@ -88,8 +92,8 @@
     UITouch* touch = [touches anyObject];
     CGPoint touchPoint = [touch locationInView:self.view];
     
-    UIView* touchView = [self.view hitTest:touchPoint withEvent:event];
-    for (UIView* view in self.viewsTouches) {
+    UIImageView* touchView = [self.view hitTest:touchPoint withEvent:event];
+    for (UIImageView* view in self.viewsTouches) {
         if ([view isEqual:touchView]) {
             
             [UIView animateWithDuration:0.2 animations:^{
@@ -102,7 +106,7 @@
             }];
             
             NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
-            if ([self.viewsTouches indexOfObject:view] == [self.colors indexOfObject:self.lastColor]) {
+            if ([self.viewsTouches indexOfObject:view] == self.lastIndexRandImage) {
                 self.score += self.scorePlus;
                 self.chetLabel.text = [NSString stringWithFormat:@"%ld", (long)self.score];
                 AudioServicesPlaySystemSound(1446);

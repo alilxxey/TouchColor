@@ -10,13 +10,13 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIView *view1; // left top
-@property (weak, nonatomic) IBOutlet UIView *view2; // central top
-@property (weak, nonatomic) IBOutlet UIView *view3; // right top
-@property (weak, nonatomic) IBOutlet UIView *view4; // left bottom
-@property (weak, nonatomic) IBOutlet UIView *view5; // central bottom
-@property (weak, nonatomic) IBOutlet UIView *view6; // right bottmon
-@property (weak, nonatomic) IBOutlet UIView *rView; // VIEW
+@property (weak, nonatomic) IBOutlet UIImageView *view1; // left top
+@property (weak, nonatomic) IBOutlet UIImageView *view2; // central top
+@property (weak, nonatomic) IBOutlet UIImageView *view3; // right top
+@property (weak, nonatomic) IBOutlet UIImageView *view4; // left bottom
+@property (weak, nonatomic) IBOutlet UIImageView *view5; // central bottom
+@property (weak, nonatomic) IBOutlet UIImageView *view6; // right bottmon
+@property (weak, nonatomic) IBOutlet UIImageView *rView; // VIEW
 
 @property (weak, nonatomic) IBOutlet UILabel *recordLabel;
 

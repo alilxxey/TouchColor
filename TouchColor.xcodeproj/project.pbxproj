@@ -10,6 +10,13 @@
 		40E414121BFDF2D800FC7D1D /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E414111BFDF2D800FC7D1D /* SoundPlayer.m */; };
 		631B69551C315226005C56B4 /* Illuminati.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69541C315226005C56B4 /* Illuminati.png */; };
 		631B69571C31522D005C56B4 /* Sanic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69561C31522D005C56B4 /* Sanic2.png */; };
+		636F1A6C1C353E6E00F07CFD /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6B1C353E6E00F07CFD /* Colors */; };
+		636F1A6E1C35408E00F07CFD /* 101.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6D1C35408E00F07CFD /* 101.png */; };
+		636F1A741C35409B00F07CFD /* 110.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6F1C35409B00F07CFD /* 110.png */; };
+		636F1A751C35409B00F07CFD /* BLUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A701C35409B00F07CFD /* BLUE.png */; };
+		636F1A761C35409B00F07CFD /* GREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A711C35409B00F07CFD /* GREEN.png */; };
+		636F1A771C35409B00F07CFD /* RED.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A721C35409B00F07CFD /* RED.png */; };
+		636F1A781C35409B00F07CFD /* YELLOW.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A731C35409B00F07CFD /* YELLOW.png */; };
 		C04FD5781C03363400B2591F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5771C03363400B2591F /* MenuViewController.m */; };
 		C04FD57D1C03616900B2591F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C04FD57C1C03616900B2591F /* icon */; };
 		C04FD5811C0362B800B2591F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = C04FD5801C0362B800B2591F /* play.png */; };
@@ -47,6 +54,13 @@
 		40E414111BFDF2D800FC7D1D /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
 		631B69541C315226005C56B4 /* Illuminati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illuminati.png; sourceTree = "<group>"; };
 		631B69561C31522D005C56B4 /* Sanic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sanic2.png; sourceTree = "<group>"; };
+		636F1A6B1C353E6E00F07CFD /* Colors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Colors; sourceTree = "<group>"; };
+		636F1A6D1C35408E00F07CFD /* 101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 101.png; path = Colors/101.png; sourceTree = "<group>"; };
+		636F1A6F1C35409B00F07CFD /* 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 110.png; path = Colors/110.png; sourceTree = "<group>"; };
+		636F1A701C35409B00F07CFD /* BLUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BLUE.png; path = Colors/BLUE.png; sourceTree = "<group>"; };
+		636F1A711C35409B00F07CFD /* GREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GREEN.png; path = Colors/GREEN.png; sourceTree = "<group>"; };
+		636F1A721C35409B00F07CFD /* RED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RED.png; path = Colors/RED.png; sourceTree = "<group>"; };
+		636F1A731C35409B00F07CFD /* YELLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YELLOW.png; path = Colors/YELLOW.png; sourceTree = "<group>"; };
 		C04FD5761C03363400B2591F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C04FD5771C03363400B2591F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C04FD57C1C03616900B2591F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
@@ -135,6 +149,13 @@
 				631B69541C315226005C56B4 /* Illuminati.png */,
 				C04FD5871C0729F200B2591F /* hand.png */,
 				C04FD5801C0362B800B2591F /* play.png */,
+				636F1A6D1C35408E00F07CFD /* 101.png */,
+				636F1A6F1C35409B00F07CFD /* 110.png */,
+				636F1A701C35409B00F07CFD /* BLUE.png */,
+				636F1A711C35409B00F07CFD /* GREEN.png */,
+				636F1A721C35409B00F07CFD /* RED.png */,
+				636F1A731C35409B00F07CFD /* YELLOW.png */,
+				636F1A6B1C353E6E00F07CFD /* Colors */,
 				C04FD57C1C03616900B2591F /* icon */,
 				C0E8DECC1BEB82E800E7F565 /* Assets.xcassets */,
 				C0E8DECE1BEB82E800E7F565 /* LaunchScreen.storyboard */,
@@ -276,11 +297,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636F1A761C35409B00F07CFD /* GREEN.png in Resources */,
+				636F1A6E1C35408E00F07CFD /* 101.png in Resources */,
 				C04FD57D1C03616900B2591F /* icon in Resources */,
 				631B69551C315226005C56B4 /* Illuminati.png in Resources */,
+				636F1A751C35409B00F07CFD /* BLUE.png in Resources */,
 				C0E8DED01BEB82E800E7F565 /* LaunchScreen.storyboard in Resources */,
+				636F1A741C35409B00F07CFD /* 110.png in Resources */,
+				636F1A6C1C353E6E00F07CFD /* Colors in Resources */,
 				C0E8DECD1BEB82E800E7F565 /* Assets.xcassets in Resources */,
+				636F1A771C35409B00F07CFD /* RED.png in Resources */,
 				C0E8DECB1BEB82E800E7F565 /* Main.storyboard in Resources */,
+				636F1A781C35409B00F07CFD /* YELLOW.png in Resources */,
 				C04FD5881C0729F200B2591F /* hand.png in Resources */,
 				631B69571C31522D005C56B4 /* Sanic2.png in Resources */,
 				C04FD5811C0362B800B2591F /* play.png in Resources */,
