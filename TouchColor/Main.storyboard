@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4PB-YM-S4i">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4PB-YM-S4i">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -24,9 +24,6 @@
                                 <rect key="frame" x="222" y="20" width="156" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Обратно в меню"/>
-                                <connections>
-                                    <segue destination="4PB-YM-S4i" kind="modal" id="BgD-5l-iAl"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Надо нажимать на квадратики снизу, цвет которых показан вверху. Каждые 10 сек. время до смены цвета уменьшается." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGR-Tr-iqJ">
                                 <rect key="frame" x="178" y="235" width="244" height="130"/>
@@ -42,11 +39,8 @@
                                 <rect key="frame" x="267" y="490" width="66" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Играть"/>
-                                <connections>
-                                    <segue destination="4xN-6X-8ep" kind="modal" id="wdQ-1L-Whu"/>
-                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iCoder.pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pic-eP-zmO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iCoder.pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pic-eP-zmO">
                                 <rect key="frame" x="260" y="580" width="80" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -59,9 +53,6 @@
                                     <constraint firstAttribute="height" constant="43" id="fOQ-9Q-fai"/>
                                 </constraints>
                                 <state key="normal" title="     "/>
-                                <connections>
-                                    <segue destination="P1k-Cy-sIc" kind="modal" id="3eE-Ap-FAQ"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как играть?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcC-5S-8fQ">
                                 <rect key="frame" x="252" y="123" width="95" height="21"/>
@@ -83,9 +74,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Button" image="Illuminati.png" backgroundImage="Illuminati.png"/>
-                                <connections>
-                                    <segue destination="9bw-1M-1uO" kind="modal" id="CeS-eD-3xl"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -157,9 +145,6 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkz-hz-gVL">
                                 <rect key="frame" x="278" y="436" width="44" height="30"/>
                                 <state key="normal" title="Назад"/>
-                                <connections>
-                                    <segue destination="zzG-JO-ASW" kind="modal" id="dyP-uc-VxS"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Sanic2.png" highlightedImage="Sanic2.png" translatesAutoresizingMaskIntoConstraints="NO" id="ash-7u-gfD">
                                 <rect key="frame" x="180" y="28" width="240" height="311"/>
@@ -277,9 +262,6 @@
                                 <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="261" y="48" width="77" height="0.0"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="4PB-YM-S4i" kind="modal" id="l3q-Ag-jWW"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="745" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QwK-8A-yAc">
                                 <rect key="frame" x="267" y="215" width="66" height="30"/>
@@ -288,9 +270,6 @@
                                 <variation key="heightClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="267" y="152" width="66" height="30"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="4xN-6X-8ep" kind="modal" id="mus-vZ-Fvk"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вы попали на страницу разработчика!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoK-Hf-dSc">
                                 <rect key="frame" x="145" y="40" width="310" height="104"/>
@@ -347,6 +326,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tEg-b9-uGy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1071" y="1061"/>
+        </scene>
+        <!--Change Mode-->
+        <scene sceneID="tsg-r3-t8z">
+            <objects>
+                <viewController id="fgR-3Q-aff" customClass="ChangeMode" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GR9-Bl-VEi"/>
+                        <viewControllerLayoutGuide type="bottom" id="ugu-xn-PxB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5ew-zK-4f4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGF-Kw-DmP">
+                                <rect key="frame" x="190" y="28" width="220" height="30"/>
+                                <state key="normal" title="Играть в классический режим"/>
+                                <connections>
+                                    <action selector="ActionClassicMode:" destination="fgR-3Q-aff" eventType="touchUpInside" id="Jsb-Nb-ZiQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8p-bI-75A">
+                                <rect key="frame" x="223" y="285" width="155" height="30"/>
+                                <state key="normal" title="Играть в MLG режим "/>
+                                <connections>
+                                    <action selector="ActionMLGMode:" destination="fgR-3Q-aff" eventType="touchUpInside" id="8Zv-Ca-2DJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCk-ga-ifW">
+                                <rect key="frame" x="285" y="436" width="30" height="30"/>
+                                <state key="normal" title="..."/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MCk-ga-ifW" firstAttribute="top" secondItem="r8p-bI-75A" secondAttribute="bottom" constant="121" id="8XU-PM-J3e"/>
+                            <constraint firstItem="BGF-Kw-DmP" firstAttribute="top" secondItem="GR9-Bl-VEi" secondAttribute="bottom" constant="8" id="JGg-BK-Xi7"/>
+                            <constraint firstItem="BGF-Kw-DmP" firstAttribute="centerX" secondItem="5ew-zK-4f4" secondAttribute="centerX" id="U0V-Qq-G8S"/>
+                            <constraint firstItem="r8p-bI-75A" firstAttribute="top" secondItem="BGF-Kw-DmP" secondAttribute="bottom" constant="227" id="d4Y-QR-Wjw"/>
+                            <constraint firstItem="MCk-ga-ifW" firstAttribute="centerX" secondItem="5ew-zK-4f4" secondAttribute="centerX" id="hTn-yD-7TR"/>
+                            <constraint firstItem="r8p-bI-75A" firstAttribute="centerX" secondItem="5ew-zK-4f4" secondAttribute="centerX" id="o2X-k3-AZN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="k1O-eY-cmW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86c-Ip-VUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="598" y="-937"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="40o-HO-6tN">
@@ -418,9 +444,6 @@
                                         <exclude reference="cg2-UW-u7D"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <segue destination="4PB-YM-S4i" kind="modal" id="wcE-hS-4uP"/>
-                                </connections>
                             </button>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GREEN.png" translatesAutoresizingMaskIntoConstraints="NO" id="h6E-9h-1gv">
                                 <rect key="frame" x="0.0" y="480" width="200" height="120"/>
@@ -437,7 +460,7 @@
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="110.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qbm-yN-9R1">
                                 <rect key="frame" x="200" y="360" width="200" height="120"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sanic2.png" translatesAutoresizingMaskIntoConstraints="NO" id="UCT-4E-KiF">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RED.png" translatesAutoresizingMaskIntoConstraints="NO" id="UCT-4E-KiF">
                                 <rect key="frame" x="0.0" y="360" width="200" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="F6r-ss-Mv6"/>
@@ -541,6 +564,7 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="MCs-em-pWr"/>
                     <connections>
                         <outlet property="chetLabel" destination="lgf-pj-lPu" id="whh-pb-qit"/>
                         <outlet property="rView" destination="3xS-W0-fl6" id="NGb-dV-Hwh"/>
@@ -555,7 +579,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MqV-d6-MZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1071" y="-71"/>
+            <point key="canvasLocation" x="1123" y="-81"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="Imm-S4-BS9">
@@ -683,7 +707,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="4xN-6X-8ep" kind="modal" id="K9U-x3-OnQ"/>
+                                    <segue destination="4xN-6X-8ep" kind="push" id="5bD-OW-oeu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TouchColor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNW-UC-5bc">
@@ -723,9 +747,6 @@
                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="344" y="680" width="113" height="36"/>
                                 </variation>
-                                <connections>
-                                    <segue destination="zzG-JO-ASW" kind="modal" id="kYn-mZ-B9A"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="iCoder.pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQI-6D-V9z">
                                 <rect key="frame" x="240" y="523" width="114" height="21"/>
@@ -912,13 +933,9 @@
         <image name="BLUE.png" width="46" height="52"/>
         <image name="GREEN.png" width="46" height="50"/>
         <image name="Illuminati.png" width="512" height="512"/>
+        <image name="RED.png" width="47" height="45"/>
         <image name="Sanic2.png" width="870" height="870"/>
         <image name="YELLOW.png" width="50" height="53"/>
         <image name="play.png" width="886" height="885"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="kYn-mZ-B9A"/>
-        <segue reference="wcE-hS-4uP"/>
-        <segue reference="wdQ-1L-Whu"/>
-    </inferredMetricsTieBreakers>
 </document>

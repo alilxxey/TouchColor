@@ -18,6 +18,7 @@
 @property (assign, nonatomic) NSInteger score;
 @property (assign, nonatomic) float timeLevel;
 @property (assign, nonatomic) NSInteger scorePlus;
+@property (assign, nonatomic) NSInteger gameMode;
 
 @end
 
@@ -35,18 +36,37 @@
     self.scorePlus = [userDefaults integerForKey:@"scorePlus"];
     
     NSArray* viewsTouches = @[self.view1, self.view2, self.view3, self.view4, self.view5, self.view6];
+    
     self.viewsTouches = viewsTouches;
     
-    UIImage *image1 = [UIImage imageNamed:@"Sanic2.png"];
-    UIImage *image2 = [UIImage imageNamed:@"110.png"];
-    UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
-    UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
-    UIImage *image5 = [UIImage imageNamed:@"101.png"];
-    UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+//    self.gameMode = [userDefaults integerForKey:@"РежимИгры"];
+//    
+//    if (self.gameMode == 1) {
+//        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
+//        UIImage *image2 = [UIImage imageNamed:@"110.png"];
+//        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
+//        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
+//        UIImage *image5 = [UIImage imageNamed:@"101.png"];
+//        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+//        self.colors = @[image1, image2, image3, image4, image5, image6];
+//    } else if (self.gameMode == 2){
+//        UIImage *image1 = [UIImage imageNamed:@"MLG1.png"];
+//        UIImage *image2 = [UIImage imageNamed:@"MLG2.png"];
+//        UIImage *image3 = [UIImage imageNamed:@"MLG_logo.png"];
+//        UIImage *image4 = [UIImage imageNamed:@"MLG4.png"];
+//        UIImage *image5 = [UIImage imageNamed:@"MLG5.png"];
+//        UIImage *image6 = [UIImage imageNamed:@"MLG6.png"];
+//        self.colors = @[image1, image2, image3, image4, image5, image6];
+//    } else {
+//        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
+//        UIImage *image2 = [UIImage imageNamed:@"110.png"];
+//        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
+//        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
+//        UIImage *image5 = [UIImage imageNamed:@"101.png"];
+//        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+//        self.colors = @[image1, image2, image3, image4, image5, image6];
+//    }
     
-    NSArray* colors = @[image1, image2, image3, image4, image5, image6];
-    
-    self.colors = colors;
     
     [self load];
     [self restart];
