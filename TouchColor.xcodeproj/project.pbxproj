@@ -23,8 +23,8 @@
 		637775101C37FD3F00BBFA9E /* MLG5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6377750A1C37FD3F00BBFA9E /* MLG5.png */; };
 		637775111C37FD3F00BBFA9E /* MLG6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6377750B1C37FD3F00BBFA9E /* MLG6.png */; };
 		637775121C37FD3F00BBFA9E /* MLG4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6377750C1C37FD3F00BBFA9E /* MLG4.jpg */; };
+		63A077AA1CF35A4500E5BB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A077A91CF35A4500E5BB66 /* Main.storyboard */; };
 		63C71E6C1C6368CF0017535E /* ChangeMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C71E6B1C6368CF0017535E /* ChangeMode.m */; };
-		63C7F3021C68BB8800F6695E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C7F3011C68BB8800F6695E /* Main.storyboard */; };
 		C04FD5781C03363400B2591F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5771C03363400B2591F /* MenuViewController.m */; };
 		C04FD57D1C03616900B2591F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C04FD57C1C03616900B2591F /* icon */; };
 		C04FD5811C0362B800B2591F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = C04FD5801C0362B800B2591F /* play.png */; };
@@ -74,9 +74,9 @@
 		6377750A1C37FD3F00BBFA9E /* MLG5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLG5.png; sourceTree = "<group>"; };
 		6377750B1C37FD3F00BBFA9E /* MLG6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MLG6.png; sourceTree = "<group>"; };
 		6377750C1C37FD3F00BBFA9E /* MLG4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MLG4.jpg; sourceTree = "<group>"; };
+		63A077A91CF35A4500E5BB66 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63C71E6A1C6368CF0017535E /* ChangeMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeMode.h; sourceTree = "<group>"; };
 		63C71E6B1C6368CF0017535E /* ChangeMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeMode.m; sourceTree = "<group>"; };
-		63C7F3011C68BB8800F6695E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C04FD5761C03363400B2591F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C04FD5771C03363400B2591F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C04FD57C1C03616900B2591F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
@@ -150,8 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				C0E8DEC31BEB82E800E7F565 /* AppDelegate.h */,
-				C0E8DEC41BEB82E800E7F565 /* AppDelegate.m */,
 				C0E8DEC61BEB82E800E7F565 /* ViewController.h */,
+				C0E8DEC41BEB82E800E7F565 /* AppDelegate.m */,
 				C0E8DEC71BEB82E800E7F565 /* ViewController.m */,
 				40E414101BFDF2D800FC7D1D /* SoundPlayer.h */,
 				40E414111BFDF2D800FC7D1D /* SoundPlayer.m */,
@@ -161,7 +161,7 @@
 				C04FD5771C03363400B2591F /* MenuViewController.m */,
 				63C71E6A1C6368CF0017535E /* ChangeMode.h */,
 				63C71E6B1C6368CF0017535E /* ChangeMode.m */,
-				63C7F3011C68BB8800F6695E /* Main.storyboard */,
+				63A077A91CF35A4500E5BB66 /* Main.storyboard */,
 				637775071C37FD3F00BBFA9E /* MLG1.png */,
 				637775081C37FD3F00BBFA9E /* MLG2.png */,
 				637775091C37FD3F00BBFA9E /* MLG3.png */,
@@ -281,7 +281,7 @@
 				TargetAttributes = {
 					C0E8DEBC1BEB82E800E7F565 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 6E2Y56FFS7;
+						DevelopmentTeam = 485GCS25P9;
 					};
 					C0E8DED51BEB82E800E7F565 = {
 						CreatedOnToolsVersion = 7.1;
@@ -320,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C7F3021C68BB8800F6695E /* Main.storyboard in Resources */,
+				63A077AA1CF35A4500E5BB66 /* Main.storyboard in Resources */,
 				6377750F1C37FD3F00BBFA9E /* MLG3.png in Resources */,
 				636F1A761C35409B00F07CFD /* GREEN.png in Resources */,
 				6377750E1C37FD3F00BBFA9E /* MLG2.png in Resources */,

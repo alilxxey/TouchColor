@@ -42,13 +42,13 @@
 //    self.gameMode = [userDefaults integerForKey:@"РежимИгры"];
 //    
 //    if (self.gameMode == 1) {
-//        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
-//        UIImage *image2 = [UIImage imageNamed:@"110.png"];
-//        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
-//        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
-//        UIImage *image5 = [UIImage imageNamed:@"101.png"];
-//        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
-//        self.colors = @[image1, image2, image3, image4, image5, image6];
+        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
+        UIImage *image2 = [UIImage imageNamed:@"110.png"];
+        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
+        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
+        UIImage *image5 = [UIImage imageNamed:@"101.png"];
+        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+        self.colors = @[image1, image2, image3, image4, image5, image6];
 //    } else if (self.gameMode == 2){
 //        UIImage *image1 = [UIImage imageNamed:@"MLG1.png"];
 //        UIImage *image2 = [UIImage imageNamed:@"MLG2.png"];
