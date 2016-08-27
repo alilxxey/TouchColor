@@ -23,8 +23,8 @@
 
 - (IBAction)actionCreatorCode:(id)sender {
     self.creatorCode = @"4812995";
-    
     if ([self.creatorCodeField.text isEqual:self.creatorCode]){
+        [self.creatorCodeField resignFirstResponder];
         self.view.backgroundColor = [UIColor greenColor];
         NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
         [userDefaults setInteger:2 forKey:@"scorePlus"];

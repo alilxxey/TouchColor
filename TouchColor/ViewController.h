@@ -22,6 +22,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *chetLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 
 @end
 
