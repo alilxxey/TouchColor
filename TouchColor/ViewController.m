@@ -41,6 +41,8 @@
     
 //    self.gameMode = [userDefaults integerForKey:@"РежимИгры"];
 //
+    NSLog(@"%ld", [userDefaults integerForKey:@"РежимИгры"]);
+    
     if ([userDefaults integerForKey:@"РежимИгры"] == 2) {
         UIImage *image1 = [UIImage imageNamed:@"RED.png"];
         UIImage *image2 = [UIImage imageNamed:@"110.png"];
@@ -49,14 +51,17 @@
         UIImage *image5 = [UIImage imageNamed:@"101.png"];
         UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
         self.colors = @[image1, image2, image3, image4, image5, image6];
- } else if ([userDefaults integerForKey:@"РежимИгры"] == 1){
-        UIImage *image1 = [UIImage imageNamed:@"images-5.png"];
-        UIImage *image2 = [UIImage imageNamed:@"images-4.png"];
-        UIImage *image3 = [UIImage imageNamed:@"images-3.png"];  
-        UIImage *image4 = [UIImage imageNamed:@"images-2.png"];
-        UIImage *image5 = [UIImage imageNamed:@"images-1.png"];
+    } else if ([userDefaults integerForKey:@"РежимИгры"] == 1){
+        UIImage *image1 = [UIImage imageNamed:@"images-6.png"];
+        UIImage *image2 = [UIImage imageNamed:@"images-5.png"];
+        UIImage *image3 = [UIImage imageNamed:@"images-4.png"];
+        UIImage *image4 = [UIImage imageNamed:@"images-3.png"];
+        UIImage *image5 = [UIImage imageNamed:@"images-2.png"];
         UIImage *image6 = [UIImage imageNamed:@"images.png"];
-     self.colors = @[image1, image2, image3, image4, image5, image6];
+        self.colors = @[image1, image2, image3, image4, image5, image6];
+        for (UIImageView* view in self.viewsTouches) {
+            view.image = [self.colors objectAtIndex:[self.viewsTouches indexOfObject:view]];
+        }
     } else {
         UIImage *image1 = [UIImage imageNamed:@"RED.png"];
         UIImage *image2 = [UIImage imageNamed:@"110.png"];
@@ -65,9 +70,11 @@
         UIImage *image5 = [UIImage imageNamed:@"101.png"];
         UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
         self.colors = @[image1, image2, image3, image4, image5, image6];
+        for (UIImageView* view in self.viewsTouches) {
+            view.image = [self.colors objectAtIndex:[self.viewsTouches indexOfObject:view]];
+        }
     }
-    
-    
+
     [self load];
     [self restart];
 }

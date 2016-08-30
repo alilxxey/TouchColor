@@ -35,7 +35,6 @@
 */
 
 - (IBAction)presidentsModeButtonAction:(id)sender {
-
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setInteger:1 forKey:@"РежимИгры"];
     [userDefaults synchronize];
