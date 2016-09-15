@@ -20,6 +20,7 @@
 @property (assign, nonatomic) NSInteger scorePlus;
 @property (assign, nonatomic) NSInteger gameMode;
 @property (assign, nonatomic) NSInteger level;
+@property (assign, nonatomic) NSInteger money;
 
 @end
 
@@ -34,7 +35,8 @@
     }
     [userDefaults synchronize];
     self.scorePlus = [userDefaults integerForKey:@"scorePlus"];
-    
+    self.money = [userDefaults integerForKey:@"КоличествоДенег"];
+
     NSArray* viewsTouches = @[self.view1, self.view2, self.view3, self.view4, self.view5, self.view6];
     
     self.viewsTouches = viewsTouches;
@@ -125,8 +127,10 @@
 }
 
 - (void)newLevel {
+    self.money += 20;
     self.timeLevel -= 0.07;
     self.level++;
+    
     
     self.levelLabel.text = [NSString stringWithFormat:@"Уровень %ld", (long)self.level];
     [UIView animateKeyframesWithDuration:0.3
@@ -149,7 +153,7 @@
     UIImageView* touchView = [self.view hitTest:touchPoint withEvent:event];
     for (UIImageView* view in self.viewsTouches) {
         if ([view isEqual:touchView]) {
-            
+            self.money += 10;
             [UIView animateWithDuration:0.2 animations:^{
                 view.transform = CGAffineTransformMakeScale(0.5 , 0.5);
             } completion:^(BOOL finished) {

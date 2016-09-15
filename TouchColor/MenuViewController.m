@@ -22,6 +22,7 @@
 - (void)load {
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
     self.recoedMenuLabel.text = [NSString stringWithFormat:@"%ld", (long)[userDefaults integerForKey:@"Рекорд"]];
+    self.moneyMenuLabel.text = [NSString stringWithFormat:@"%ld", (long)[userDefaults integerForKey:@"КоличествоДенег"]];
 }
 
 - (IBAction)actionRestartRecord:(id)sender {
