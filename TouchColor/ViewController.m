@@ -65,12 +65,12 @@
             view.image = [self.colors objectAtIndex:[self.viewsTouches indexOfObject:view]];
         }
     } else {
-        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
-        UIImage *image2 = [UIImage imageNamed:@"110.png"];
-        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
-        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
-        UIImage *image5 = [UIImage imageNamed:@"101.png"];
-        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+        UIImage *image1 = [UIImage imageNamed:@"animal.png"];
+        UIImage *image2 = [UIImage imageNamed:@"animal-1.png"];
+        UIImage *image3 = [UIImage imageNamed:@"animal-3.png"];
+        UIImage *image4 = [UIImage imageNamed:@"animal-4.png"];
+        UIImage *image5 = [UIImage imageNamed:@"animal-5.png"];
+        UIImage *image6 = [UIImage imageNamed:@"animal-6.png"];
         self.colors = @[image1, image2, image3, image4, image5, image6];
         for (UIImageView* view in self.viewsTouches) {
             view.image = [self.colors objectAtIndex:[self.viewsTouches indexOfObject:view]];
