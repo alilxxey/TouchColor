@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40E414121BFDF2D800FC7D1D /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E414111BFDF2D800FC7D1D /* SoundPlayer.m */; };
+		631B39D31DE4DE0800F857DE /* animal-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B39D21DE4DE0800F857DE /* animal-2.png */; };
 		631B69551C315226005C56B4 /* Illuminati.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69541C315226005C56B4 /* Illuminati.png */; };
 		631B69571C31522D005C56B4 /* Sanic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69561C31522D005C56B4 /* Sanic2.png */; };
 		632B3A381D8ACD2100E4C0D7 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B3A371D8ACD2100E4C0D7 /* SettingsView.m */; };
@@ -66,6 +67,7 @@
 /* Begin PBXFileReference section */
 		40E414101BFDF2D800FC7D1D /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlayer.h; sourceTree = "<group>"; };
 		40E414111BFDF2D800FC7D1D /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
+		631B39D21DE4DE0800F857DE /* animal-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-2.png"; sourceTree = "<group>"; };
 		631B69541C315226005C56B4 /* Illuminati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illuminati.png; sourceTree = "<group>"; };
 		631B69561C31522D005C56B4 /* Sanic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sanic2.png; sourceTree = "<group>"; };
 		632B3A361D8ACD2100E4C0D7 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				C01750FB1D0B02CF009E4652 /* ChangeModeViewController.h */,
 				C01750FC1D0B02CF009E4652 /* ChangeModeViewController.m */,
 				63AF310D1DE3555E0023CF33 /* animal-1.png */,
+				631B39D21DE4DE0800F857DE /* animal-2.png */,
 				63AF310F1DE3555E0023CF33 /* animal-3.png */,
 				63AF31101DE3555E0023CF33 /* animal-4.png */,
 				63AF31111DE3555E0023CF33 /* animal-5.png */,
@@ -368,6 +371,7 @@
 				C0E8DED01BEB82E800E7F565 /* LaunchScreen.storyboard in Resources */,
 				636F1A741C35409B00F07CFD /* 110.png in Resources */,
 				636F1A6C1C353E6E00F07CFD /* Colors in Resources */,
+				631B39D31DE4DE0800F857DE /* animal-2.png in Resources */,
 				63AF31181DE3555E0023CF33 /* animal-6.png in Resources */,
 				C01751081D0B1653009E4652 /* images-6.png in Resources */,
 				63AF31131DE3555E0023CF33 /* animal-1.png in Resources */,
