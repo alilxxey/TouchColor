@@ -41,19 +41,25 @@
     
     self.viewsTouches = viewsTouches;
     
-//    self.gameMode = [userDefaults integerForKey:@"РежимИгры"];
+    self.gameMode = [userDefaults integerForKey:@"РежимИгры"];
 //
-    NSLog(@"%ld", [userDefaults integerForKey:@"РежимИгры"]);
     
     if ([userDefaults integerForKey:@"РежимИгры"] == 2) {
-        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
-        UIImage *image2 = [UIImage imageNamed:@"110.png"];
-        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
-        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
-        UIImage *image5 = [UIImage imageNamed:@"101.png"];
-        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+//        UIImage *image1 = [UIImage imageNamed:@"RED.png"];
+//        UIImage *image2 = [UIImage imageNamed:@"110.png"];
+//        UIImage *image3 = [UIImage imageNamed:@"YELLOW.png"];
+//        UIImage *image4 = [UIImage imageNamed:@"GREEN.png"];
+//        UIImage *image5 = [UIImage imageNamed:@"101.png"];
+//        UIImage *image6 = [UIImage imageNamed:@"BLUE.png"];
+        UIImage *image1 = [UIImage imageNamed:@"animal-1.png"];
+        UIImage *image2 = [UIImage imageNamed:@"animal-2.png"];
+        UIImage *image3 = [UIImage imageNamed:@"animal-3.png"];
+        UIImage *image4 = [UIImage imageNamed:@"animal-4.png"];
+        UIImage *image5 = [UIImage imageNamed:@"animal-5.png"];
+        UIImage *image6 = [UIImage imageNamed:@"animal-6.png"];
         self.colors = @[image1, image2, image3, image4, image5, image6];
     } else if ([userDefaults integerForKey:@"РежимИгры"] == 1){
+        
         UIImage *image1 = [UIImage imageNamed:@"images-6.png"];
         UIImage *image2 = [UIImage imageNamed:@"images-5.png"];
         UIImage *image3 = [UIImage imageNamed:@"images-4.png"];
@@ -65,8 +71,8 @@
             view.image = [self.colors objectAtIndex:[self.viewsTouches indexOfObject:view]];
         }
     } else {
-        UIImage *image1 = [UIImage imageNamed:@"animal.png"];
-        UIImage *image2 = [UIImage imageNamed:@"animal-1.png"];
+        UIImage *image1 = [UIImage imageNamed:@"animal-1.png"];
+        UIImage *image2 = [UIImage imageNamed:@"animal-2.png"];
         UIImage *image3 = [UIImage imageNamed:@"animal-3.png"];
         UIImage *image4 = [UIImage imageNamed:@"animal-4.png"];
         UIImage *image5 = [UIImage imageNamed:@"animal-5.png"];
@@ -130,6 +136,7 @@
     self.money += 20;
     self.timeLevel -= 0.07;
     self.level++;
+
     
     
     self.levelLabel.text = [NSString stringWithFormat:@"Уровень %ld", (long)self.level];
