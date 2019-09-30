@@ -21,6 +21,8 @@
 @property (assign, nonatomic) NSInteger gameMode;
 @property (assign, nonatomic) NSInteger level;
 @property (assign, nonatomic) NSInteger money;
+@property (assign, nonatomic) bool hardCoreOn;
+
 
 @end
 
@@ -28,6 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.hardCoreOn = false;
     self.level = 1;
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
     if ([userDefaults integerForKey:@"scorePlus"] != 2) {
@@ -178,7 +181,7 @@
                     [self save];
                 }
             } else {
-                AudioServicesPlaySystemSound(1301);
+                AudioServicesPlaySystemSound(1488);
                 if (self.score == [userDefaults integerForKey:@"Рекорд"] && self.score != 0) {
                     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Неплохо"
                                                                                    message:@"Рекорд побит"
