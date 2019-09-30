@@ -43,7 +43,7 @@
     
     self.gameMode = [userDefaults integerForKey:@"РежимИгры"];
     // 2 - classic
-    // 1 - presidents
+    // 1 - presidents(custom)
     // 3 - animals
     
     if ([userDefaults integerForKey:@"РежимИгры"] == 2) {
