@@ -10,7 +10,6 @@
 		40E414121BFDF2D800FC7D1D /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E414111BFDF2D800FC7D1D /* SoundPlayer.m */; };
 		631B39D31DE4DE0800F857DE /* animal-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B39D21DE4DE0800F857DE /* animal-2.png */; };
 		631B69551C315226005C56B4 /* Illuminati.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69541C315226005C56B4 /* Illuminati.png */; };
-		631B69571C31522D005C56B4 /* Sanic2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69561C31522D005C56B4 /* Sanic2.png */; };
 		632B3A381D8ACD2100E4C0D7 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B3A371D8ACD2100E4C0D7 /* SettingsView.m */; };
 		632B3A3B1D8ACD5400E4C0D7 /* ShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632B3A3A1D8ACD5400E4C0D7 /* ShopView.m */; };
 		636F1A6C1C353E6E00F07CFD /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6B1C353E6E00F07CFD /* Colors */; };
@@ -69,7 +68,6 @@
 		40E414111BFDF2D800FC7D1D /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
 		631B39D21DE4DE0800F857DE /* animal-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-2.png"; sourceTree = "<group>"; };
 		631B69541C315226005C56B4 /* Illuminati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illuminati.png; sourceTree = "<group>"; };
-		631B69561C31522D005C56B4 /* Sanic2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sanic2.png; sourceTree = "<group>"; };
 		632B3A361D8ACD2100E4C0D7 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
 		632B3A371D8ACD2100E4C0D7 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
 		632B3A391D8ACD5400E4C0D7 /* ShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopView.h; sourceTree = "<group>"; };
@@ -197,7 +195,6 @@
 				63AF31101DE3555E0023CF33 /* animal-4.png */,
 				63AF31111DE3555E0023CF33 /* animal-5.png */,
 				63AF31121DE3555E0023CF33 /* animal-6.png */,
-				631B69561C31522D005C56B4 /* Sanic2.png */,
 				C01750FE1D0B1653009E4652 /* images-2.png */,
 				C01750FF1D0B1653009E4652 /* images-3.png */,
 				C01751011D0B1653009E4652 /* images-5.png */,
@@ -382,7 +379,6 @@
 				636F1A781C35409B00F07CFD /* YELLOW.png in Resources */,
 				C04FD5881C0729F200B2591F /* hand.png in Resources */,
 				C01751091D0B1653009E4652 /* images.png in Resources */,
-				631B69571C31522D005C56B4 /* Sanic2.png in Resources */,
 				C04FD5811C0362B800B2591F /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,12 +565,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 485GCS25P9;
 				INFOPLIST_FILE = TouchColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.02;
+				MARKETING_VERSION = 1.04;
 				PRODUCT_BUNDLE_IDENTIFIER = alilxxey.TouchColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -588,12 +584,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 485GCS25P9;
 				INFOPLIST_FILE = TouchColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.02;
+				MARKETING_VERSION = 1.04;
 				PRODUCT_BUNDLE_IDENTIFIER = alilxxey.TouchColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
