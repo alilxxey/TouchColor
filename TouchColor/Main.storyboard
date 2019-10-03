@@ -38,15 +38,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzr-Qt-YAR">
-                                <rect key="frame" x="127.5" y="438.5" width="65" height="36"/>
+                                <rect key="frame" x="127.5" y="438" width="65" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Играть"/>
                                 <connections>
                                     <segue destination="4xN-6X-8ep" kind="modal" id="ZRf-l0-70S"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iCoder.pro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pic-eP-zmO">
-                                <rect key="frame" x="120" y="527.5" width="80" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pic-eP-zmO">
+                                <rect key="frame" x="158" y="527" width="4.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -125,7 +125,6 @@
         <!--Settings View-->
         <scene sceneID="K3B-Vt-VFS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="baK-Xl-Z6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="AjM-1v-Qut" customClass="SettingsView" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WGc-8c-ICd"/>
@@ -184,6 +183,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="iIs-rD-n0y"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="baK-Xl-Z6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="335" y="1462"/>
         </scene>
@@ -756,7 +756,7 @@
         <image name="play.png" width="425.27999877929688" height="424.79998779296875"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QDV-Lk-pnG"/>
+        <segue reference="UB8-a6-Bmg"/>
         <segue reference="ZRf-l0-70S"/>
     </inferredMetricsTieBreakers>
 </document>

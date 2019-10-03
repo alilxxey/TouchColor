@@ -181,7 +181,7 @@
                     [self save];
                 }
             } else {
-                AudioServicesPlaySystemSound(1399);
+                AudioServicesPlaySystemSound(1288);
                 if (self.score == [userDefaults integerForKey:@"Рекорд"] && self.score != 0) {
                     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Неплохо"
                                                                                    message:@"Рекорд побит"
