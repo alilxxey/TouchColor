@@ -7,121 +7,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="6Bs-RJ-eMy">
-            <objects>
-                <viewController id="zzG-JO-ASW" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="VF1-Ht-ehm"/>
-                        <viewControllerLayoutGuide type="bottom" id="MgH-7F-74h"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wqw-aS-WiU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggs-DJ-KVM">
-                                <rect key="frame" x="84.5" y="0.0" width="151" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Обратно в меню"/>
-                                <connections>
-                                    <segue destination="4PB-YM-S4i" kind="modal" id="QDV-Lk-pnG"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Надо нажимать на квадратики снизу, цвет которых показан вверху. Каждые 10 очков время до смены цвета уменьшается." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGR-Tr-iqJ">
-                                <rect key="frame" x="38" y="209" width="244" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="48e-yh-JHB"/>
-                                    <constraint firstAttribute="width" constant="244" id="8mJ-HI-Hb2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzr-Qt-YAR">
-                                <rect key="frame" x="127.5" y="438" width="65" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Играть"/>
-                                <connections>
-                                    <segue destination="4xN-6X-8ep" kind="modal" id="ZRf-l0-70S"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pic-eP-zmO">
-                                <rect key="frame" x="158" y="527" width="4.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3r-x6-1s5">
-                                <rect key="frame" x="257" y="505" width="63" height="43"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="63" id="T9S-p0-dEr"/>
-                                    <constraint firstAttribute="height" constant="43" id="fOQ-9Q-fai"/>
-                                </constraints>
-                                <state key="normal" title="     "/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как играть?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcC-5S-8fQ">
-                                <rect key="frame" x="113" y="103" width="94.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcd-4L-59O">
-                                <rect key="frame" x="0.0" y="498" width="50" height="50"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                </accessibility>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="jfW-ia-uNb"/>
-                                    <constraint firstAttribute="height" constant="50" id="lGJ-BG-0wm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Button" image="Illuminati.png" backgroundImage="Illuminati.png"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="pcC-5S-8fQ" firstAttribute="centerY" secondItem="wqw-aS-WiU" secondAttribute="centerY" id="7se-Wy-P0g"/>
-                            <constraint firstItem="pcC-5S-8fQ" firstAttribute="top" secondItem="ggs-DJ-KVM" secondAttribute="bottom" constant="67" id="8Qv-au-MVy"/>
-                            <constraint firstItem="MgH-7F-74h" firstAttribute="top" secondItem="qcd-4L-59O" secondAttribute="bottom" id="8tb-4P-6Ix"/>
-                            <constraint firstItem="pcC-5S-8fQ" firstAttribute="top" secondItem="ggs-DJ-KVM" secondAttribute="bottom" constant="67" id="9nW-I2-Un9"/>
-                            <constraint firstItem="qcd-4L-59O" firstAttribute="leading" secondItem="wqw-aS-WiU" secondAttribute="leading" id="Fqd-CS-f3Q"/>
-                            <constraint firstItem="pcC-5S-8fQ" firstAttribute="centerY" secondItem="wqw-aS-WiU" secondAttribute="centerY" id="I5P-TT-xrx"/>
-                            <constraint firstAttribute="trailing" secondItem="r3r-x6-1s5" secondAttribute="trailing" id="LwM-49-gGf"/>
-                            <constraint firstItem="pic-eP-zmO" firstAttribute="centerX" secondItem="wqw-aS-WiU" secondAttribute="centerX" id="Ryl-Ng-Zex"/>
-                            <constraint firstItem="JGR-Tr-iqJ" firstAttribute="centerX" secondItem="wqw-aS-WiU" secondAttribute="centerX" id="Vr3-u4-F5P"/>
-                            <constraint firstAttribute="bottom" secondItem="r3r-x6-1s5" secondAttribute="bottom" id="cDl-iB-BA9"/>
-                            <constraint firstItem="ggs-DJ-KVM" firstAttribute="top" secondItem="VF1-Ht-ehm" secondAttribute="bottom" id="cUb-gM-OT6"/>
-                            <constraint firstItem="JGR-Tr-iqJ" firstAttribute="top" secondItem="pcC-5S-8fQ" secondAttribute="bottom" constant="77" id="cb2-eh-OkU"/>
-                            <constraint firstItem="MgH-7F-74h" firstAttribute="top" secondItem="pic-eP-zmO" secondAttribute="bottom" id="cqD-gC-Lc6"/>
-                            <constraint firstItem="pic-eP-zmO" firstAttribute="top" secondItem="bzr-Qt-YAR" secondAttribute="bottom" constant="53" id="exa-oL-FLI"/>
-                            <constraint firstItem="JGR-Tr-iqJ" firstAttribute="centerY" secondItem="wqw-aS-WiU" secondAttribute="centerY" id="eyN-dY-f6D"/>
-                            <constraint firstItem="pcC-5S-8fQ" firstAttribute="centerX" secondItem="wqw-aS-WiU" secondAttribute="centerX" id="gaP-yI-BgT"/>
-                            <constraint firstItem="JGR-Tr-iqJ" firstAttribute="top" secondItem="pcC-5S-8fQ" secondAttribute="bottom" constant="-7.5" id="ivq-Vu-Mlu"/>
-                            <constraint firstItem="ggs-DJ-KVM" firstAttribute="centerX" secondItem="wqw-aS-WiU" secondAttribute="centerX" id="keS-Dj-G8P"/>
-                            <constraint firstItem="bzr-Qt-YAR" firstAttribute="centerX" secondItem="wqw-aS-WiU" secondAttribute="centerX" id="mBH-iP-EPL"/>
-                            <constraint firstItem="pcC-5S-8fQ" firstAttribute="centerX" secondItem="wqw-aS-WiU" secondAttribute="centerX" id="v5u-em-Ukx"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="7se-Wy-P0g"/>
-                                <exclude reference="9nW-I2-Un9"/>
-                                <exclude reference="I5P-TT-xrx"/>
-                                <exclude reference="v5u-em-Ukx"/>
-                                <exclude reference="cb2-eh-OkU"/>
-                                <exclude reference="ivq-Vu-Mlu"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=compact">
-                            <mask key="constraints">
-                                <include reference="ivq-Vu-Mlu"/>
-                            </mask>
-                        </variation>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MKl-fk-9uJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="334" y="648"/>
-        </scene>
         <!--Settings View-->
         <scene sceneID="K3B-Vt-VFS">
             <objects>
@@ -504,39 +389,28 @@
                                 <rect key="frame" x="110" y="224" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="3mS-E7-8ey"/>
-                                    <constraint firstAttribute="width" constant="100" id="6cZ-J9-gfc"/>
-                                    <constraint firstAttribute="height" constant="100" id="6tG-FE-w3x"/>
-                                    <constraint firstAttribute="width" constant="60" id="7jd-ji-YkO"/>
+                                    <constraint firstAttribute="height" constant="100" id="9PP-jQ-Txf"/>
+                                    <constraint firstAttribute="width" constant="100" id="Eeg-ca-ACa"/>
                                     <constraint firstAttribute="height" constant="100" id="Nrw-Di-q2t">
                                         <variation key="heightClass=regular-widthClass=regular" constant="225"/>
                                     </constraint>
-                                    <constraint firstAttribute="width" constant="100" id="ZI9-JJ-aU9">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="225"/>
-                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="yyW-pJ-DzE" secondAttribute="height" multiplier="1:1" id="qm5-lB-AoZ"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="play.png"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="3mS-E7-8ey"/>
-                                        <exclude reference="7jd-ji-YkO"/>
                                         <exclude reference="Nrw-Di-q2t"/>
-                                        <exclude reference="ZI9-JJ-aU9"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact">
                                     <mask key="constraints">
                                         <include reference="3mS-E7-8ey"/>
-                                        <exclude reference="6cZ-J9-gfc"/>
-                                        <exclude reference="6tG-FE-w3x"/>
-                                        <include reference="7jd-ji-YkO"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <mask key="constraints">
-                                        <exclude reference="6cZ-J9-gfc"/>
-                                        <exclude reference="6tG-FE-w3x"/>
                                         <include reference="Nrw-Di-q2t"/>
-                                        <include reference="ZI9-JJ-aU9"/>
                                     </mask>
                                 </variation>
                                 <connections>
@@ -544,15 +418,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tao-dx-jFy">
-                                <rect key="frame" x="105.5" y="492" width="109" height="36"/>
+                                <rect key="frame" x="145" y="492" width="30" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Как играть?"/>
-                                <connections>
-                                    <segue destination="zzG-JO-ASW" kind="modal" id="idx-T1-dTZ"/>
-                                </connections>
+                                <state key="normal" title=" "/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQI-6D-V9z">
-                                <rect key="frame" x="105.5" y="536" width="109" height="3.5"/>
+                                <rect key="frame" x="145" y="536" width="30" height="3.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="E9l-pB-5ai"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="PVc-K4-ybe"/>
@@ -666,7 +537,7 @@
                                 <rect key="frame" x="16" y="168" width="288" height="42"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="D54-yI-Uvg" firstAttribute="top" secondItem="5Be-Ih-KeZ" secondAttribute="top" constant="35" id="2E3-vd-bR6"/>
                             <constraint firstItem="rIG-Pi-cvo" firstAttribute="top" secondItem="iQI-6D-V9z" secondAttribute="bottom" constant="8.5" id="2aA-ig-3t7"/>
@@ -752,14 +623,12 @@
         <image name="110.png" width="50" height="57"/>
         <image name="BLUE.png" width="46" height="52"/>
         <image name="GREEN.png" width="46" height="50"/>
-        <image name="Illuminati.png" width="512" height="512"/>
         <image name="RED.png" width="47" height="45"/>
-        <image name="TouchColorText.png" width="2639" height="399"/>
+        <image name="TouchColorText.png" width="2630" height="399"/>
         <image name="YELLOW.png" width="50" height="53"/>
         <image name="play.png" width="425.27999877929688" height="424.79998779296875"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UB8-a6-Bmg"/>
-        <segue reference="lVn-y7-WRJ"/>
+        <segue reference="MlQ-Y0-O1j"/>
     </inferredMetricsTieBreakers>
 </document>

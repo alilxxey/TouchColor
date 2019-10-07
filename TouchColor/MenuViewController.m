@@ -15,6 +15,10 @@
 @implementation MenuViewController
 
 - (void)viewDidLoad {
+   UIImage *backgroundImage = [UIImage imageNamed:@"touchcolorbg.png"];
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    backgroundImageView.image = backgroundImage;
+    [self.view insertSubview: backgroundImageView atIndex:0];
     [super viewDidLoad];
     [self load];
 }

@@ -30,7 +30,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"touchcolorbg.png"]];
+    UIImage *backgroundImage = [UIImage imageNamed:@"touchcolorbg.png"];
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    backgroundImageView.image = backgroundImage;
     self.hardCoreOn = false;
+    [self.view insertSubview: backgroundImageView atIndex:0];
     self.level = 1;
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
     if ([userDefaults integerForKey:@"scorePlus"] != 2) {
