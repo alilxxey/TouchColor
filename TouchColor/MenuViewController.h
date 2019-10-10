@@ -11,7 +11,7 @@
 @interface MenuViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *moneyMenuLabel;
-@property (weak, nonatomic) IBOutlet UILabel *recoedMenuLabel;
+@property (weak, nonatomic) IBOutlet UILabel *recordMenuLabel;
 
 - (IBAction)actionRestartRecord:(id)sender;
 

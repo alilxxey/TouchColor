@@ -2,8 +2,8 @@
 //  main.m
 //  TouchColor
 //
-//  Created by Александр Галкин on 05.11.15.
-//  Copyright © 2015 iCoder. All rights reserved.
+//  Created by Alexey Tyunkin on 05.11.15.
+//  Copyright © 2015 alilxxey. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

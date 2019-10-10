@@ -2,7 +2,7 @@
 //  MenuViewController.m
 //  TouchColor
 //
-//  Created by Александр Галкин on 23.11.15.
+//  Created by Alexey Tyunkin on 23.11.15.
 //  Copyright © 2015 iCoder. All rights reserved.
 //
 
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
    UIImage *backgroundImage = [UIImage imageNamed:@"touchcolorbg.png"];
     UIImageView *backgroundImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    
     backgroundImageView.image = backgroundImage;
     [self.view insertSubview: backgroundImageView atIndex:0];
     [super viewDidLoad];
@@ -25,7 +26,7 @@
 
 - (void)load {
     NSUserDefaults* userDefaults = [NSUserDefaults standardUserDefaults];
-    self.recoedMenuLabel.text = [NSString stringWithFormat:@"%ld", (long)[userDefaults integerForKey:@"Рекорд"]];
+    self.recordMenuLabel.text = [NSString stringWithFormat:@"%ld", (long)[userDefaults integerForKey:@"Рекорд"]];
     self.moneyMenuLabel.text = [NSString stringWithFormat:@"%ld", (long)[userDefaults integerForKey:@"КоличествоДенег"]];
 }
 

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		631B39D31DE4DE0800F857DE /* animal-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B39D21DE4DE0800F857DE /* animal-2.png */; };
 		631B69551C315226005C56B4 /* Illuminati.png in Resources */ = {isa = PBXBuildFile; fileRef = 631B69541C315226005C56B4 /* Illuminati.png */; };
-		636F1A6C1C353E6E00F07CFD /* Colors in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6B1C353E6E00F07CFD /* Colors */; };
 		636F1A6E1C35408E00F07CFD /* 101.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6D1C35408E00F07CFD /* 101.png */; };
 		636F1A741C35409B00F07CFD /* 110.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A6F1C35409B00F07CFD /* 110.png */; };
 		636F1A751C35409B00F07CFD /* BLUE.png in Resources */ = {isa = PBXBuildFile; fileRef = 636F1A701C35409B00F07CFD /* BLUE.png */; };
@@ -22,6 +21,7 @@
 		63AF31171DE3555E0023CF33 /* animal-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AF31111DE3555E0023CF33 /* animal-5.png */; };
 		63AF31181DE3555E0023CF33 /* animal-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AF31121DE3555E0023CF33 /* animal-6.png */; };
 		63C7F3021C68BB8800F6695E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C7F3011C68BB8800F6695E /* Main.storyboard */; };
+		66553771234F907A0005A886 /* TCFinalButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 66553770234F90790005A886 /* TCFinalButton.png */; };
 		66EBE2ED234BB88400AE1C86 /* touchcolorbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EBE2EC234BB88300AE1C86 /* touchcolorbg.png */; };
 		66EBE2EF234BBFF300AE1C86 /* TouchColorText.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EBE2EE234BBFF300AE1C86 /* TouchColorText.png */; };
 		C01750FD1D0B02CF009E4652 /* ChangeModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01750FC1D0B02CF009E4652 /* ChangeModeViewController.m */; };
@@ -33,7 +33,6 @@
 		C01751091D0B1653009E4652 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = C01751031D0B1653009E4652 /* images.png */; };
 		C04FD5781C03363400B2591F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5771C03363400B2591F /* MenuViewController.m */; };
 		C04FD57D1C03616900B2591F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C04FD57C1C03616900B2591F /* icon */; };
-		C04FD5811C0362B800B2591F /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = C04FD5801C0362B800B2591F /* play.png */; };
 		C04FD5841C03697100B2591F /* CreatorCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5831C03697100B2591F /* CreatorCodeViewController.m */; };
 		C04FD5881C0729F200B2591F /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = C04FD5871C0729F200B2591F /* hand.png */; };
 		C0E8DEC21BEB82E800E7F565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8DEC11BEB82E800E7F565 /* main.m */; };
@@ -65,7 +64,6 @@
 /* Begin PBXFileReference section */
 		631B39D21DE4DE0800F857DE /* animal-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-2.png"; sourceTree = "<group>"; };
 		631B69541C315226005C56B4 /* Illuminati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illuminati.png; sourceTree = "<group>"; };
-		636F1A6B1C353E6E00F07CFD /* Colors */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Colors; sourceTree = "<group>"; };
 		636F1A6D1C35408E00F07CFD /* 101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 101.png; path = Colors/101.png; sourceTree = "<group>"; };
 		636F1A6F1C35409B00F07CFD /* 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 110.png; path = Colors/110.png; sourceTree = "<group>"; };
 		636F1A701C35409B00F07CFD /* BLUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BLUE.png; path = Colors/BLUE.png; sourceTree = "<group>"; };
@@ -78,6 +76,12 @@
 		63AF31111DE3555E0023CF33 /* animal-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-5.png"; sourceTree = "<group>"; };
 		63AF31121DE3555E0023CF33 /* animal-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animal-6.png"; sourceTree = "<group>"; };
 		63C7F3011C68BB8800F6695E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		66553770234F90790005A886 /* TCFinalButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TCFinalButton.png; path = ../../../Downloads/TCFinalButton.png; sourceTree = "<group>"; };
+		66553772234F90A20005A886 /* GREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GREEN.png; sourceTree = "<group>"; };
+		66553773234F90A30005A886 /* 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 110.png; sourceTree = "<group>"; };
+		66553774234F90A40005A886 /* BLUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BLUE.png; sourceTree = "<group>"; };
+		66553775234F90A50005A886 /* YELLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YELLOW.png; sourceTree = "<group>"; };
+		66553776234F90A50005A886 /* 101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 101.png; sourceTree = "<group>"; };
 		66EBE2EC234BB88300AE1C86 /* touchcolorbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = touchcolorbg.png; path = ../../../Downloads/touchcolorbg.png; sourceTree = "<group>"; };
 		66EBE2EE234BBFF300AE1C86 /* TouchColorText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TouchColorText.png; path = ../../../Downloads/TouchColorText.png; sourceTree = "<group>"; };
 		C01750FB1D0B02CF009E4652 /* ChangeModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeModeViewController.h; sourceTree = "<group>"; };
@@ -91,7 +95,6 @@
 		C04FD5761C03363400B2591F /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		C04FD5771C03363400B2591F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C04FD57C1C03616900B2591F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
-		C04FD5801C0362B800B2591F /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		C04FD5821C03697100B2591F /* CreatorCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatorCodeViewController.h; sourceTree = "<group>"; };
 		C04FD5831C03697100B2591F /* CreatorCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatorCodeViewController.m; sourceTree = "<group>"; };
 		C04FD5871C0729F200B2591F /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
@@ -137,13 +140,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C01750EE1D0B0237009E4652 /* PRESIDENTS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = PRESIDENTS;
-			sourceTree = "<group>";
-		};
 		C0E8DEB41BEB82E800E7F565 = {
 			isa = PBXGroup;
 			children = (
@@ -192,17 +188,20 @@
 				C01751031D0B1653009E4652 /* images.png */,
 				66EBE2EC234BB88300AE1C86 /* touchcolorbg.png */,
 				66EBE2EE234BBFF300AE1C86 /* TouchColorText.png */,
-				C01750EE1D0B0237009E4652 /* PRESIDENTS */,
+				66553770234F90790005A886 /* TCFinalButton.png */,
 				631B69541C315226005C56B4 /* Illuminati.png */,
 				C04FD5871C0729F200B2591F /* hand.png */,
-				C04FD5801C0362B800B2591F /* play.png */,
 				636F1A6D1C35408E00F07CFD /* 101.png */,
+				66553776234F90A50005A886 /* 101.png */,
 				636F1A6F1C35409B00F07CFD /* 110.png */,
 				636F1A701C35409B00F07CFD /* BLUE.png */,
+				66553773234F90A30005A886 /* 110.png */,
+				66553774234F90A40005A886 /* BLUE.png */,
 				636F1A711C35409B00F07CFD /* GREEN.png */,
 				636F1A721C35409B00F07CFD /* RED.png */,
 				636F1A731C35409B00F07CFD /* YELLOW.png */,
-				636F1A6B1C353E6E00F07CFD /* Colors */,
+				66553772234F90A20005A886 /* GREEN.png */,
+				66553775234F90A50005A886 /* YELLOW.png */,
 				C04FD57C1C03616900B2591F /* icon */,
 				C0E8DECC1BEB82E800E7F565 /* Assets.xcassets */,
 				C0E8DECE1BEB82E800E7F565 /* LaunchScreen.storyboard */,
@@ -321,10 +320,9 @@
 			};
 			buildConfigurationList = C0E8DEB81BEB82E800E7F565 /* Build configuration list for PBXProject "TouchColor" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -361,7 +359,6 @@
 				63AF31151DE3555E0023CF33 /* animal-3.png in Resources */,
 				C0E8DED01BEB82E800E7F565 /* LaunchScreen.storyboard in Resources */,
 				636F1A741C35409B00F07CFD /* 110.png in Resources */,
-				636F1A6C1C353E6E00F07CFD /* Colors in Resources */,
 				631B39D31DE4DE0800F857DE /* animal-2.png in Resources */,
 				63AF31181DE3555E0023CF33 /* animal-6.png in Resources */,
 				C01751081D0B1653009E4652 /* images-6.png in Resources */,
@@ -372,7 +369,7 @@
 				636F1A781C35409B00F07CFD /* YELLOW.png in Resources */,
 				C04FD5881C0729F200B2591F /* hand.png in Resources */,
 				C01751091D0B1653009E4652 /* images.png in Resources */,
-				C04FD5811C0362B800B2591F /* play.png in Resources */,
+				66553771234F907A0005A886 /* TCFinalButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -542,7 +539,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -560,7 +557,7 @@
 				INFOPLIST_FILE = TouchColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.20;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alilxxey.TouchColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -579,7 +576,7 @@
 				INFOPLIST_FILE = TouchColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.20;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = alilxxey.TouchColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
