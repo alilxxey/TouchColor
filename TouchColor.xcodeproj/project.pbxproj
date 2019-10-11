@@ -22,6 +22,7 @@
 		63AF31181DE3555E0023CF33 /* animal-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AF31121DE3555E0023CF33 /* animal-6.png */; };
 		63C7F3021C68BB8800F6695E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C7F3011C68BB8800F6695E /* Main.storyboard */; };
 		66553771234F907A0005A886 /* TCFinalButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 66553770234F90790005A886 /* TCFinalButton.png */; };
+		66814B8023505BD500032DD6 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 66814B7F23505BD400032DD6 /* play.png */; };
 		66EBE2ED234BB88400AE1C86 /* touchcolorbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EBE2EC234BB88300AE1C86 /* touchcolorbg.png */; };
 		66EBE2EF234BBFF300AE1C86 /* TouchColorText.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EBE2EE234BBFF300AE1C86 /* TouchColorText.png */; };
 		C01750FD1D0B02CF009E4652 /* ChangeModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01750FC1D0B02CF009E4652 /* ChangeModeViewController.m */; };
@@ -33,7 +34,6 @@
 		C01751091D0B1653009E4652 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = C01751031D0B1653009E4652 /* images.png */; };
 		C04FD5781C03363400B2591F /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5771C03363400B2591F /* MenuViewController.m */; };
 		C04FD57D1C03616900B2591F /* icon in Resources */ = {isa = PBXBuildFile; fileRef = C04FD57C1C03616900B2591F /* icon */; };
-		C04FD5841C03697100B2591F /* CreatorCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FD5831C03697100B2591F /* CreatorCodeViewController.m */; };
 		C04FD5881C0729F200B2591F /* hand.png in Resources */ = {isa = PBXBuildFile; fileRef = C04FD5871C0729F200B2591F /* hand.png */; };
 		C0E8DEC21BEB82E800E7F565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8DEC11BEB82E800E7F565 /* main.m */; };
 		C0E8DEC51BEB82E800E7F565 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E8DEC41BEB82E800E7F565 /* AppDelegate.m */; };
@@ -82,6 +82,7 @@
 		66553774234F90A40005A886 /* BLUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BLUE.png; sourceTree = "<group>"; };
 		66553775234F90A50005A886 /* YELLOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YELLOW.png; sourceTree = "<group>"; };
 		66553776234F90A50005A886 /* 101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 101.png; sourceTree = "<group>"; };
+		66814B7F23505BD400032DD6 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/play.png"; sourceTree = "<group>"; };
 		66EBE2EC234BB88300AE1C86 /* touchcolorbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = touchcolorbg.png; path = ../../../Downloads/touchcolorbg.png; sourceTree = "<group>"; };
 		66EBE2EE234BBFF300AE1C86 /* TouchColorText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TouchColorText.png; path = ../../../Downloads/TouchColorText.png; sourceTree = "<group>"; };
 		C01750FB1D0B02CF009E4652 /* ChangeModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeModeViewController.h; sourceTree = "<group>"; };
@@ -96,7 +97,6 @@
 		C04FD5771C03363400B2591F /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		C04FD57C1C03616900B2591F /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
 		C04FD5821C03697100B2591F /* CreatorCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatorCodeViewController.h; sourceTree = "<group>"; };
-		C04FD5831C03697100B2591F /* CreatorCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatorCodeViewController.m; sourceTree = "<group>"; };
 		C04FD5871C0729F200B2591F /* hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hand.png; sourceTree = "<group>"; };
 		C0E8DEBD1BEB82E800E7F565 /* TouchColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E8DEC11BEB82E800E7F565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -169,7 +169,6 @@
 				C0E8DEC61BEB82E800E7F565 /* ViewController.h */,
 				C0E8DEC71BEB82E800E7F565 /* ViewController.m */,
 				C04FD5821C03697100B2591F /* CreatorCodeViewController.h */,
-				C04FD5831C03697100B2591F /* CreatorCodeViewController.m */,
 				C04FD5761C03363400B2591F /* MenuViewController.h */,
 				C04FD5771C03363400B2591F /* MenuViewController.m */,
 				C01750FB1D0B02CF009E4652 /* ChangeModeViewController.h */,
@@ -202,6 +201,7 @@
 				636F1A731C35409B00F07CFD /* YELLOW.png */,
 				66553772234F90A20005A886 /* GREEN.png */,
 				66553775234F90A50005A886 /* YELLOW.png */,
+				66814B7F23505BD400032DD6 /* play.png */,
 				C04FD57C1C03616900B2591F /* icon */,
 				C0E8DECC1BEB82E800E7F565 /* Assets.xcassets */,
 				C0E8DECE1BEB82E800E7F565 /* LaunchScreen.storyboard */,
@@ -364,6 +364,7 @@
 				C01751081D0B1653009E4652 /* images-6.png in Resources */,
 				63AF31131DE3555E0023CF33 /* animal-1.png in Resources */,
 				C01751071D0B1653009E4652 /* images-5.png in Resources */,
+				66814B8023505BD500032DD6 /* play.png in Resources */,
 				C0E8DECD1BEB82E800E7F565 /* Assets.xcassets in Resources */,
 				636F1A771C35409B00F07CFD /* RED.png in Resources */,
 				636F1A781C35409B00F07CFD /* YELLOW.png in Resources */,
@@ -397,7 +398,6 @@
 				C0E8DEC81BEB82E800E7F565 /* ViewController.m in Sources */,
 				C0E8DEC51BEB82E800E7F565 /* AppDelegate.m in Sources */,
 				C0E8DEC21BEB82E800E7F565 /* main.m in Sources */,
-				C04FD5841C03697100B2591F /* CreatorCodeViewController.m in Sources */,
 				C04FD5781C03363400B2591F /* MenuViewController.m in Sources */,
 				C01750FD1D0B02CF009E4652 /* ChangeModeViewController.m in Sources */,
 			);
@@ -557,7 +557,7 @@
 				INFOPLIST_FILE = TouchColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.01;
 				PRODUCT_BUNDLE_IDENTIFIER = alilxxey.TouchColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -576,7 +576,7 @@
 				INFOPLIST_FILE = TouchColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.01;
 				PRODUCT_BUNDLE_IDENTIFIER = alilxxey.TouchColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
